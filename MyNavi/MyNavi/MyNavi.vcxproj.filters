@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\BASE">
+      <UniqueIdentifier>{9ff29bfa-08fd-48f4-8392-8ffe69748dc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\BASE">
+      <UniqueIdentifier>{b967c390-0310-4fba-927f-0a2d8c9328da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\SINS">
+      <UniqueIdentifier>{a9544b0c-c431-4ac1-aa50-b1d1452f2a31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\SINS">
+      <UniqueIdentifier>{5a54fc88-d9fe-4cc3-b024-49e5150f8ff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\KIT">
+      <UniqueIdentifier>{de2e90d6-4f4d-4b8a-b836-12f49bc8cabb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\KIT">
+      <UniqueIdentifier>{ad6ad54f-83f9-4582-8143-5d75ad963fa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\DLG">
+      <UniqueIdentifier>{7ea079ca-2cd5-4fff-8cd9-80ad74ead27c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DLG">
+      <UniqueIdentifier>{921e9d5f-8ad5-4eb9-be19-ad5b70837dcd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyNavi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseFunction.h">
+      <Filter>头文件\BASE</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseGNSSReader.h">
+      <Filter>头文件\BASE</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseIMUReader.h">
+      <Filter>头文件\BASE</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseStruct.h">
+      <Filter>头文件\BASE</Filter>
+    </ClInclude>
+    <ClInclude Include="CInitialAlignment.h">
+      <Filter>头文件\SINS</Filter>
+    </ClInclude>
+    <ClInclude Include="CInsLooseCoupling.h">
+      <Filter>头文件\SINS</Filter>
+    </ClInclude>
+    <ClInclude Include="CLooseCouplingManager.h">
+      <Filter>头文件\SINS</Filter>
+    </ClInclude>
+    <ClInclude Include="CInsMech.h">
+      <Filter>头文件\SINS</Filter>
+    </ClInclude>
+    <ClInclude Include="CConverter.h">
+      <Filter>头文件\KIT</Filter>
+    </ClInclude>
+    <ClInclude Include="ConverterDlg.h">
+      <Filter>头文件\DLG</Filter>
+    </ClInclude>
+    <ClInclude Include="KitAllanDlg.h">
+      <Filter>头文件\DLG</Filter>
+    </ClInclude>
+    <ClInclude Include="MyNaviDlg.h">
+      <Filter>头文件\DLG</Filter>
+    </ClInclude>
+    <ClInclude Include="BINDecodeE.h">
+      <Filter>头文件\DLG</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyNavi.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseFunction.cpp">
+      <Filter>源文件\BASE</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseGNSSReader.cpp">
+      <Filter>源文件\BASE</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseIMUReader.cpp">
+      <Filter>源文件\BASE</Filter>
+    </ClCompile>
+    <ClCompile Include="CLooseCouplingManager.cpp">
+      <Filter>源文件\SINS</Filter>
+    </ClCompile>
+    <ClCompile Include="CInitialAlignment.cpp">
+      <Filter>源文件\SINS</Filter>
+    </ClCompile>
+    <ClCompile Include="CInsLooseCoupling.cpp">
+      <Filter>源文件\SINS</Filter>
+    </ClCompile>
+    <ClCompile Include="CConverter.cpp">
+      <Filter>源文件\KIT</Filter>
+    </ClCompile>
+    <ClCompile Include="CInsMech.cpp">
+      <Filter>源文件\SINS</Filter>
+    </ClCompile>
+    <ClCompile Include="ConverterDlg.cpp">
+      <Filter>源文件\DLG</Filter>
+    </ClCompile>
+    <ClCompile Include="KitAllanDlg.cpp">
+      <Filter>源文件\DLG</Filter>
+    </ClCompile>
+    <ClCompile Include="MyNaviDlg.cpp">
+      <Filter>源文件\DLG</Filter>
+    </ClCompile>
+    <ClCompile Include="BINDecodeE.cpp">
+      <Filter>源文件\DLG</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MyNavi.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MyNavi.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MyNavi.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
