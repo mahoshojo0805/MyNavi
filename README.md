@@ -11,7 +11,7 @@
 程序的界面如下：<br>
 ![image](https://github.com/mahoshojo0805/MyNavi/blob/main/%E7%A8%8B%E5%BA%8F%E7%95%8C%E9%9D%A2.png)
 “数据”部分可以选择IMU数据和GNSS数据，分别支持读取ASC格式和POS格式的文件。格式的具体信息参见后文。如果IMU数据存在零偏，目前程序还没有设置零偏的功能，需要在CInsLooseCoupling类的Initialize函数中将零偏行的注释取消并修改，给其加上零偏并重新编译。同时由于存在零偏，所以不能自动初始对准，否则会错误，需要自行输入初始姿态。<br>
-示例数据（XW_IMU.ASC）的参数配置如下：<br>
+在Data文件夹中有用于测试的示例数据。示例数据（XW_IMU.ASC）的参数配置如下：<br>
 |参数|值|
 |----|--|
 |杆臂（XYZ）|-0.035	0.164		0.890|
